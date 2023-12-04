@@ -1,11 +1,19 @@
 # country-capital
 
-Country-Capital Lookup
+## Country-Capital Lookup
 
-This Python script facilitates the association between countries and their respective capitals. The data utilized in this code is sourced from two Indonesian-language websites: CNBC Indonesia source and IDN Times source. The program allows users to input a country's name and retrieve its corresponding capital. The displayed output reveals the capital city of the entered country. Additionally, for added reference, the script randomly showcases the capital of another country.
+This Python script provides a seamless way to link countries with their respective capitals. The underlying data for this script is derived from two Indonesian-language websites:
 
-This functionality is achieved through a dictionary structure in Python, where country names are keys and their respective capitals are stored as values. Users input a country's name, and the program retrieves the corresponding capital from this dataset. In cases where the country input doesn't match the dataset, a message indicating the absence of the country in the database is displayed.
+1. [CNBC Indonesia](https://www.cnbcindonesia.com/lifestyle/20230719125748-33-455619/195-nama-negara-di-dunia-dan-ibu-kotanya-berdasarkan-abjad)
+2. [IDN Times](https://www.idntimes.com/life/education/dinda-trisnaning-ramadhani-2/daftar-negara-di-dunia-dan-ibu-kotanya)
 
-The code also includes a randomization feature to present the capital of a different country after providing the requested information. This addition allows users to explore various country-capital pairs beyond their initial query.
+### Functionality
+Users can input a country's name and instantly retrieve its corresponding capital. The output displays the capital city of the entered country. Additionally, the script randomly showcases the capital of another country, providing users with diverse country-capital pairs for exploration.
 
-Please note that while the code and its functionality are explained in English, the sources for the country-capital data are Indonesian-language websites.
+### Code Structure
+The functionality is implemented through a dictionary structure in Python. Country names serve as keys, while their corresponding capitals are stored as values. If the entered country does not match any entry in the dataset, the script informs the user about the absence of that country in the database.
+
+### Additional Information
+To enhance user experience, the code also includes a feature that randomly displays the capital of a different country, broadening the scope beyond the initial query.
+
+Please note that the code's explanations and functionality details are provided in English, but the sources for the country-capital data are Indonesian-language websites.
