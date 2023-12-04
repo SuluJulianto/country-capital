@@ -1,7 +1,5 @@
 # country-capital
 
-## Country-Capital Lookup
-
 This Python script provides a seamless way to link countries with their respective capitals. The underlying data for this script is derived from two Indonesian-language websites:
 
 1. [CNBC Indonesia](https://www.cnbcindonesia.com/lifestyle/20230719125748-33-455619/195-nama-negara-di-dunia-dan-ibu-kotanya-berdasarkan-abjad)
